@@ -6,6 +6,7 @@ Authors: Tomas Skrivan, Joseph Tooby-Smith
 module
 
 public import PhysLean.Mathematics.VariationalCalculus.HasVarGradient
+meta import LeanAtlas.Metadata.Attribute.Meta
 /-!
 
 # Euler-Lagrange equations
@@ -40,6 +41,8 @@ lemma eulerLagrangeOp_zero (q : Time → X) :
 
 /- The variational derivative of `L t (q' t) (deriv q' t))` for a lagrangian `L`
   is equal to the `eulerLagrangeOp`. -/
+@[formalMeta "Euler-Lagrange Equations"
+  "Variational derivative of action equals Euler-Lagrange operator" mainTheorem]
 theorem euler_lagrange_varGradient
     (L : Time → X → X → ℝ) (q : Time → X)
     (hq : ContDiff ℝ ∞ q) (hL : ContDiff ℝ ∞ ↿L) :

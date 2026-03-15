@@ -6,6 +6,7 @@ Authors: Joseph Tooby-Smith
 module
 
 public import PhysLean.QFT.PerturbationTheory.WickAlgebra.WickTerm
+meta import LeanAtlas.Metadata.Attribute.Meta
 /-!
 
 # Wick's theorem
@@ -78,6 +79,8 @@ For the RHS:
 Both sides are now sums over the same thing and their terms equate by the nature of the
 lemmas used.
 -/
+@[formalMeta "Wick's Theorem"
+  "Time-ordered product equals sum over Wick contractions" mainTheorem]
 theorem wicks_theorem : (φs : List 𝓕.FieldOp) → 𝓣(ofFieldOpList φs) =
     ∑ (φsΛ : WickContraction φs.length), φsΛ.wickTerm
   | [] => by

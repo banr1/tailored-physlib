@@ -9,6 +9,7 @@ public import Mathlib.Analysis.Normed.Field.Instances
 public import PhysLean.Mathematics.DataStructures.Matrix.LieTrace
 public import PhysLean.Relativity.LorentzAlgebra.Basic
 public import PhysLean.Relativity.LorentzGroup.Restricted.Basic
+meta import LeanAtlas.Metadata.Attribute.Meta
 
 /-!
 # Exponential map from the Lorentz algebra to the restricted Lorentz group
@@ -175,6 +176,8 @@ theorem exp_isOrthochronous (A : lorentzAlgebra) :
 
 /-- The exponential of an element of the Lorentz algebra is a member of the
 restricted Lorentz group. -/
+@[formalMeta "Lorentz Algebra Exponential Map"
+  "Exponential of Lorentz algebra element is in restricted group" mainTheorem]
 theorem exp_mem_restricted_lorentzGroup (A : lorentzAlgebra) :
     (⟨NormedSpace.exp A.1, exp_mem_lorentzGroup A⟩ : LorentzGroup 3) ∈
     LorentzGroup.restricted 3 := by

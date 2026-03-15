@@ -7,6 +7,7 @@ module
 
 public import Mathlib.Algebra.Lie.OfAssociative
 public import PhysLean.StatisticalMechanics.CanonicalEnsemble.Lemmas
+meta import LeanAtlas.Metadata.Attribute.Meta
 /-!
 # Finite Canonical Ensemble
 
@@ -595,6 +596,8 @@ lemma derivWithin_meanEnergy_Beta_eq_neg_variance
   ring
 
 /-- FDT for finite canonical ensembles: C_V = Var(E) / (k_B T²). -/
+@[formalMeta "Fluctuation-Dissipation Theorem"
+  "Heat capacity equals energy variance over kT squared" mainTheorem]
 theorem fluctuation_dissipation_theorem_finite
     [MeasurableSingletonClass ι] [𝓒.IsFinite] (T : Temperature) (hT_pos : 0 < T.val) :
     𝓒.heatCapacity T = 𝓒.energyVariance T / (kB * (T.val : ℝ)^2) := by

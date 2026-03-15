@@ -7,6 +7,7 @@ module
 
 public import PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Eigenfunction
 public import PhysLean.QuantumMechanics.OneDimension.HilbertSpace.Gaussians
+meta import LeanAtlas.Metadata.Attribute.Meta
 /-!
 
 # Completeness of the eigenfunctions of the Harmonic Oscillator
@@ -514,6 +515,8 @@ lemma zero_of_orthogonal_eigenVector (f : HilbertSpace)
 
   is zero for `f` orthogonal to all eigenfunctions, and hence the norm of `f` is zero.
 -/
+@[formalMeta "Harmonic Oscillator Completeness"
+  "Eigenfunctions span is dense in Hilbert space" mainTheorem]
 theorem eigenfunction_completeness
     (plancherel_theorem : ∀ {f : ℝ → ℂ} (hf : Integrable f volume) (_ : MemLp f 2),
       eLpNorm (𝓕 f) 2 volume = eLpNorm f 2 volume) :
