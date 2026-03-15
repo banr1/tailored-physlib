@@ -1,0 +1,1224 @@
+[project]
+name = "PhysLean"
+namespace = "PhysLean"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.Basic"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.DampedHarmonicOscillator.Basic"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.EulerLagrange"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.HamiltonsEquations"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.HarmonicOscillator.Basic"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.HarmonicOscillator.ConfigurationSpace"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.HarmonicOscillator.Solution"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.Lagrangian.TotalDerivativeEquivalence"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.Mass.MassUnit"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.Pendulum.CoplanarDoublePendulum"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.Pendulum.MiscellaneousPendulumPivotMotions"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.Pendulum.SlidingPendulum"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.RigidBody.Basic"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.RigidBody.SolidSphere"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.Scattering.RigidSphere"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.Vibrations.LinearTriatomic"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.WaveEquation.Basic"
+
+[[modules]]
+name = "PhysLean.ClassicalMechanics.WaveEquation.HarmonicWave"
+
+[[modules]]
+name = "PhysLean.CondensedMatter.Basic"
+
+[[modules]]
+name = "PhysLean.CondensedMatter.TightBindingChain.Basic"
+
+[[modules]]
+name = "PhysLean.Cosmology.Basic"
+
+[[modules]]
+name = "PhysLean.Cosmology.FLRW.Basic"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Basic"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Charge.ChargeUnit"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Current.CircularCoil"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Current.InfiniteWire"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Dynamics.Basic"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Dynamics.CurrentDensity"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Dynamics.Hamiltonian"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Dynamics.IsExtrema"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Dynamics.KineticTerm"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Dynamics.Lagrangian"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Kinematics.Boosts"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Kinematics.EMPotential"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Kinematics.ElectricField"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Kinematics.FieldStrength"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Kinematics.MagneticField"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Kinematics.ScalarPotential"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Kinematics.VectorPotential"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.PointParticle.OneDimension"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.PointParticle.ThreeDimension"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Vacuum.Constant"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Vacuum.HarmonicWave"
+
+[[modules]]
+name = "PhysLean.Electromagnetism.Vacuum.IsPlaneWave"
+
+[[modules]]
+name = "PhysLean.Mathematics.Calculus.AdjFDeriv"
+
+[[modules]]
+name = "PhysLean.Mathematics.Calculus.Divergence"
+
+[[modules]]
+name = "PhysLean.Mathematics.DataStructures.FourTree.Basic"
+
+[[modules]]
+name = "PhysLean.Mathematics.DataStructures.FourTree.UniqueMap"
+
+[[modules]]
+name = "PhysLean.Mathematics.DataStructures.Matrix.LieTrace"
+
+[[modules]]
+name = "PhysLean.Mathematics.Distribution.Basic"
+
+[[modules]]
+name = "PhysLean.Mathematics.Distribution.PowMul"
+
+[[modules]]
+name = "PhysLean.Mathematics.FDerivCurry"
+
+[[modules]]
+name = "PhysLean.Mathematics.Fin"
+
+[[modules]]
+name = "PhysLean.Mathematics.Fin.Involutions"
+
+[[modules]]
+name = "PhysLean.Mathematics.Geometry.Metric.PseudoRiemannian.Defs"
+
+[[modules]]
+name = "PhysLean.Mathematics.Geometry.Metric.Riemannian.Defs"
+
+[[modules]]
+name = "PhysLean.Mathematics.InnerProductSpace.Adjoint"
+
+[[modules]]
+name = "PhysLean.Mathematics.InnerProductSpace.Basic"
+
+[[modules]]
+name = "PhysLean.Mathematics.InnerProductSpace.Calculus"
+
+[[modules]]
+name = "PhysLean.Mathematics.InnerProductSpace.Submodule"
+
+[[modules]]
+name = "PhysLean.Mathematics.KroneckerDelta"
+
+[[modules]]
+name = "PhysLean.Mathematics.LinearMaps"
+
+[[modules]]
+name = "PhysLean.Mathematics.List"
+
+[[modules]]
+name = "PhysLean.Mathematics.List.InsertIdx"
+
+[[modules]]
+name = "PhysLean.Mathematics.List.InsertionSort"
+
+[[modules]]
+name = "PhysLean.Mathematics.PiTensorProduct"
+
+[[modules]]
+name = "PhysLean.Mathematics.RatComplexNum"
+
+[[modules]]
+name = "PhysLean.Mathematics.SO3.Basic"
+
+[[modules]]
+name = "PhysLean.Mathematics.SchurTriangulation"
+
+[[modules]]
+name = "PhysLean.Mathematics.SpecialFunctions.PhysHermite"
+
+[[modules]]
+name = "PhysLean.Mathematics.Trigonometry.Tanh"
+
+[[modules]]
+name = "PhysLean.Mathematics.VariationalCalculus.Basic"
+
+[[modules]]
+name = "PhysLean.Mathematics.VariationalCalculus.HasVarAdjDeriv"
+
+[[modules]]
+name = "PhysLean.Mathematics.VariationalCalculus.HasVarAdjoint"
+
+[[modules]]
+name = "PhysLean.Mathematics.VariationalCalculus.HasVarGradient"
+
+[[modules]]
+name = "PhysLean.Mathematics.VariationalCalculus.IsLocalizedfunctionTransform"
+
+[[modules]]
+name = "PhysLean.Mathematics.VariationalCalculus.IsTestFunction"
+
+[[modules]]
+name = "PhysLean.Meta.AllFilePaths"
+
+[[modules]]
+name = "PhysLean.Meta.Basic"
+
+[[modules]]
+name = "PhysLean.Meta.Informal.Basic"
+
+[[modules]]
+name = "PhysLean.Meta.Informal.Post"
+
+[[modules]]
+name = "PhysLean.Meta.Informal.SemiFormal"
+
+[[modules]]
+name = "PhysLean.Meta.Linters.Sorry"
+
+[[modules]]
+name = "PhysLean.Meta.Notes.Basic"
+
+[[modules]]
+name = "PhysLean.Meta.Notes.HTMLNote"
+
+[[modules]]
+name = "PhysLean.Meta.Notes.NoteFile"
+
+[[modules]]
+name = "PhysLean.Meta.Notes.ToHTML"
+
+[[modules]]
+name = "PhysLean.Meta.Remark.Basic"
+
+[[modules]]
+name = "PhysLean.Meta.Remark.Properties"
+
+[[modules]]
+name = "PhysLean.Meta.Sorry"
+
+[[modules]]
+name = "PhysLean.Meta.TODO.Basic"
+
+[[modules]]
+name = "PhysLean.Meta.TransverseTactics"
+
+[[modules]]
+name = "PhysLean.Optics.Basic"
+
+[[modules]]
+name = "PhysLean.Optics.Polarization.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.GeorgiGlashow.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.PatiSalam.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.FamilyMaps"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.NoGrav.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.Ordinary.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.Ordinary.DimSevenPlane"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.Ordinary.FamilyMaps"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.Permutations"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.PlusU1.BMinusL"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.PlusU1.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.PlusU1.BoundPlaneDim"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.PlusU1.FamilyMaps"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.PlusU1.HyperCharge"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.PlusU1.PlaneNonSols"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.PlusU1.QuadSol"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.RHN.AnomalyCancellation.PlusU1.QuadSolToSol"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.Spin10.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.TwoHDM.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.TwoHDM.GramMatrix"
+
+[[modules]]
+name = "PhysLean.Particles.BeyondTheStandardModel.TwoHDM.Potential"
+
+[[modules]]
+name = "PhysLean.Particles.FlavorPhysics.CKMMatrix.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.FlavorPhysics.CKMMatrix.Invariants"
+
+[[modules]]
+name = "PhysLean.Particles.FlavorPhysics.CKMMatrix.PhaseFreedom"
+
+[[modules]]
+name = "PhysLean.Particles.FlavorPhysics.CKMMatrix.Relations"
+
+[[modules]]
+name = "PhysLean.Particles.FlavorPhysics.CKMMatrix.Rows"
+
+[[modules]]
+name = "PhysLean.Particles.FlavorPhysics.CKMMatrix.StandardParameterization.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.FlavorPhysics.CKMMatrix.StandardParameterization.StandardParameters"
+
+[[modules]]
+name = "PhysLean.Particles.NeutrinoPhysics.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.AnomalyCancellation.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.AnomalyCancellation.FamilyMaps"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.AnomalyCancellation.NoGrav.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.AnomalyCancellation.NoGrav.One.Lemmas"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.AnomalyCancellation.NoGrav.One.LinearParameterization"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.AnomalyCancellation.Permutations"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.HiggsBoson.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.HiggsBoson.Potential"
+
+[[modules]]
+name = "PhysLean.Particles.StandardModel.Representations"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.MSSMNu.AnomalyCancellation.B3"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.MSSMNu.AnomalyCancellation.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.MSSMNu.AnomalyCancellation.HyperCharge"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.MSSMNu.AnomalyCancellation.LineY3B3"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.MSSMNu.AnomalyCancellation.OrthogY3B3.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.MSSMNu.AnomalyCancellation.OrthogY3B3.PlaneWithY3B3"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.MSSMNu.AnomalyCancellation.OrthogY3B3.ToSols"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.MSSMNu.AnomalyCancellation.Permutations"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.MSSMNu.AnomalyCancellation.Y3"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.AllowsTerm"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.Completions"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.Map"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.MinimalSuperSet"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.MinimallyAllowsTerm.Basic"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.MinimallyAllowsTerm.FinsetTerms"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.MinimallyAllowsTerm.OfFinset"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.OfFieldLabel"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.OfPotentialTerm"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.PhenoClosed"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.PhenoConstrained"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.Yukawa"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.ChargeSpectrum.ZMod"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.FieldLabels"
+
+[[modules]]
+name = "PhysLean.Particles.SuperSymmetry.SU5.Potential"
+
+[[modules]]
+name = "PhysLean.QFT.AnomalyCancellation.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.AnomalyCancellation.GroupActions"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.CreateAnnihilate"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FeynmanDiagrams.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldOpFreeAlgebra.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldOpFreeAlgebra.Grading"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldOpFreeAlgebra.NormTimeOrder"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldOpFreeAlgebra.NormalOrder"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldOpFreeAlgebra.SuperCommute"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldOpFreeAlgebra.TimeOrder"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldSpecification.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldSpecification.CrAnFieldOp"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldSpecification.CrAnSection"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldSpecification.Filters"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldSpecification.NormalOrder"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldSpecification.TimeOrder"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldStatistics.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldStatistics.ExchangeSign"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.FieldStatistics.OfFinset"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.Koszul.KoszulSign"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.Koszul.KoszulSignInsert"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.Grading"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.NormalOrder.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.NormalOrder.Lemmas"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.NormalOrder.WickContractions"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.StaticWickTerm"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.StaticWickTheorem"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.SuperCommute"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.TimeContraction"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.TimeOrder"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.Universality"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.WickTerm"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.WicksTheorem"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickAlgebra.WicksTheoremNormal"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Card"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Erase"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.ExtractEquiv"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.InsertAndContract"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.InsertAndContractNat"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Involutions"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.IsFull"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Join"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Perm"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Sign.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Sign.InsertNone"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Sign.InsertSome"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Sign.Join"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Singleton"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.StaticContract"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.SubContraction"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.TimeCond"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.TimeContract"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.Uncontracted"
+
+[[modules]]
+name = "PhysLean.QFT.PerturbationTheory.WickContraction.UncontractedList"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.Basic"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.BasisLinear"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.ConstAbs"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.Even.BasisLinear"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.Even.LineInCubic"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.Even.Parameterization"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.LineInPlaneCond"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.LowDim.One"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.LowDim.Three"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.LowDim.Two"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.Odd.BasisLinear"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.Odd.LineInCubic"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.Odd.Parameterization"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.Permutations"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.Sorts"
+
+[[modules]]
+name = "PhysLean.QFT.QED.AnomalyCancellation.VectorLike"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.DDimensions.Hydrogen.Basic"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.DDimensions.Hydrogen.LaplaceRungeLenzVector"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.DDimensions.Operators.AngularMomentum"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.DDimensions.Operators.Commutation"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.DDimensions.Operators.Momentum"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.DDimensions.Operators.Position"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.DDimensions.Operators.Unbounded"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.DDimensions.SpaceDHilbertSpace.Basic"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.DDimensions.SpaceDHilbertSpace.SchwartzSubmodule"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.FiniteTarget.Basic"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.FiniteTarget.HilbertSpace"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.GeneralPotential.Basic"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Basic"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Completeness"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Eigenfunction"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.Examples"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HarmonicOscillator.TISE"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HilbertSpace.Basic"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HilbertSpace.Gaussians"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HilbertSpace.PlaneWaves"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HilbertSpace.PositionStates"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.HilbertSpace.SchwartzSubmodule"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.Operators.Commutation"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.Operators.Momentum"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.Operators.Parity"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.Operators.Position"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.Operators.Unbounded"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.OneDimension.ReflectionlessPotential.Basic"
+
+[[modules]]
+name = "PhysLean.QuantumMechanics.PlanckConstant"
+
+[[modules]]
+name = "PhysLean.Relativity.Bispinors.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.CliffordAlgebra"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzAlgebra.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzAlgebra.Basis"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzAlgebra.ExponentialMap"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.Boosts.Apply"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.Boosts.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.Boosts.Generalized"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.Orthochronous.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.Proper"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.Restricted.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.Restricted.FromBoostRotation"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.Rotations"
+
+[[modules]]
+name = "PhysLean.Relativity.LorentzGroup.ToVector"
+
+[[modules]]
+name = "PhysLean.Relativity.MinkowskiMatrix"
+
+[[modules]]
+name = "PhysLean.Relativity.PauliMatrices.AsTensor"
+
+[[modules]]
+name = "PhysLean.Relativity.PauliMatrices.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.PauliMatrices.CliffordAlgebra"
+
+[[modules]]
+name = "PhysLean.Relativity.PauliMatrices.Relations"
+
+[[modules]]
+name = "PhysLean.Relativity.PauliMatrices.SelfAdjoint"
+
+[[modules]]
+name = "PhysLean.Relativity.PauliMatrices.ToTensor"
+
+[[modules]]
+name = "PhysLean.Relativity.SL2C.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.SL2C.SelfAdjoint"
+
+[[modules]]
+name = "PhysLean.Relativity.Special.ProperTime"
+
+[[modules]]
+name = "PhysLean.Relativity.Special.TwinParadox.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.SpeedOfLight"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Color.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Color.Discrete"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Color.Lift"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Lemmas"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Matrix.Pre"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Metrics.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Metrics.Lemmas"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Metrics.Pre"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.OfRat"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Units.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Units.Pre"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Units.Symm"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Vector.Pre.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Vector.Pre.Contraction"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Vector.Pre.Modules"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Weyl.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Weyl.Contraction"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Weyl.Metric"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Weyl.Modules"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Weyl.Two"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.ComplexTensor.Weyl.Unit"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Constructors"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Contraction.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Contraction.Basis"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Contraction.Products"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Contraction.Pure"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Dual"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Elab"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Evaluation"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.MetricTensor"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.OfInt"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Product"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.CoVector.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Derivative"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Matrix.Pre"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Metrics.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Metrics.Pre"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.ToComplex"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Units.Pre"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Vector.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Vector.Causality.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Vector.Causality.LightLike"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Vector.Causality.TimeLike"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Vector.MinkowskiProduct"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Vector.Pre.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Vector.Pre.Contraction"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Vector.Pre.Modules"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.RealTensor.Velocity.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.TensorSpecies.Basic"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.Tensorial"
+
+[[modules]]
+name = "PhysLean.Relativity.Tensors.UnitTensor"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Basic"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.ConstantSliceDist"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.CrossProduct"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Derivatives.Basic"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Derivatives.Curl"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Derivatives.Div"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Derivatives.Grad"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Derivatives.Laplacian"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.DistConst"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.DistOfFunction"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Integrals.Basic"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Integrals.RadialAngularMeasure"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.IsDistBounded"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.LengthUnit"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Module"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Norm"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Slice"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Space.Translations"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.SpaceTime.Basic"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.SpaceTime.Boosts"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.SpaceTime.Derivatives"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.SpaceTime.LorentzAction"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.SpaceTime.TimeSlice"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Time.Basic"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Time.Derivatives"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Time.TimeMan"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Time.TimeTransMan"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.Time.TimeUnit"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.TimeAndSpace.Basic"
+
+[[modules]]
+name = "PhysLean.SpaceAndTime.TimeAndSpace.ConstantTimeDist"
+
+[[modules]]
+name = "PhysLean.StatisticalMechanics.BoltzmannConstant"
+
+[[modules]]
+name = "PhysLean.StatisticalMechanics.CanonicalEnsemble.Basic"
+
+[[modules]]
+name = "PhysLean.StatisticalMechanics.CanonicalEnsemble.Finite"
+
+[[modules]]
+name = "PhysLean.StatisticalMechanics.CanonicalEnsemble.Lemmas"
+
+[[modules]]
+name = "PhysLean.StatisticalMechanics.CanonicalEnsemble.TwoState"
+
+[[modules]]
+name = "PhysLean.StringTheory.Basic"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Basic"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Charges.AnomalyFree"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Charges.OfRationalSection"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Charges.Viable"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Fluxes.Basic"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Fluxes.NoExotics.ChiralIndices"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Fluxes.NoExotics.Completeness"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Fluxes.NoExotics.Elems"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Quanta.Basic"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Quanta.FiveQuanta"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Quanta.IsViable"
+
+[[modules]]
+name = "PhysLean.StringTheory.FTheory.SU5.Quanta.TenQuanta"
+
+[[modules]]
+name = "PhysLean.Thermodynamics.Basic"
+
+[[modules]]
+name = "PhysLean.Thermodynamics.IdealGas.Basic"
+
+[[modules]]
+name = "PhysLean.Thermodynamics.Temperature.Basic"
+
+[[modules]]
+name = "PhysLean.Thermodynamics.Temperature.TemperatureUnits"
+
+[[modules]]
+name = "PhysLean.Units.Basic"
+
+[[modules]]
+name = "PhysLean.Units.Dimension"
+
+[[modules]]
+name = "PhysLean.Units.Examples"
+
+[[modules]]
+name = "PhysLean.Units.FDeriv"
+
+[[modules]]
+name = "PhysLean.Units.Integral"
+
+[[modules]]
+name = "PhysLean.Units.UnitDependent"
+
+[[modules]]
+name = "PhysLean.Units.WithDim.Area"
+
+[[modules]]
+name = "PhysLean.Units.WithDim.Basic"
+
+[[modules]]
+name = "PhysLean.Units.WithDim.Energy"
+
+[[modules]]
+name = "PhysLean.Units.WithDim.Mass"
+
+[[modules]]
+name = "PhysLean.Units.WithDim.Momentum"
+
+[[modules]]
+name = "PhysLean.Units.WithDim.Pressure"
+
+[[modules]]
+name = "PhysLean.Units.WithDim.Speed"
+
+[[modules]]
+name = "PhysLean.Units.WithDim.Velocity"
+
+[atlas]
+root = "../lean-atlas"
